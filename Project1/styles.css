@@ -1,0 +1,31 @@
+main{
+    
+    background-color: #f0f8ff;
+}
+  
+  header{
+    background: #808080;
+    font-family: Fantasy;
+    text-align: center;
+    font-size: 40px;
+  }
+  
+  img{
+    max-width: 400px;
+    class: center;
+    display: block;
+    margin: 0 auto;
+    border: 10px solid black;
+    border-radius: 50%;
+  }
+  
+  h2{
+    text-align: center;
+    font-family: cursive;
+    font-size: 15px;
+  }
+  
+  p{
+    text-align: center;
+    font-family: cursive;
+  }
