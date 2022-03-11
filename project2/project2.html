@@ -1,0 +1,59 @@
+<html>
+  
+  <head>
+
+  <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Form</title>
+
+</head>
+  
+
+
+<body>
+  
+  <header><h1 id='title'>Review Form</h1></header>
+  <p id="description">Answer this short Survey</p>
+  
+  <form id="survey-form">
+      <div>
+    <label for="name" id="name-label">Name</label>
+    <input type="text" placeholder="Enter your name" id="name" required>
+    <label for="email" id="email-label">Email</label>
+    <input type="email" placeholder="Enter your email" id="email" required>
+    <label for="number" id="number-label">Age (optional)</label>
+    <input type="number" placeholder="Age" id="number" min="10" max="99">
+    
+    <label for="comp">Choose your complaint:</label>
+    <select name="comp" id="dropdown" required value="">
+  <option value=""> Select One</option>
+  <option value="Administration">Administration</option>
+  <option value="Tecnical">Tecnical</option>
+  <option value="Payment">Payment</option>
+  <option value="Customer">Customer Support</option>
+    </select>
+    
+    
+    <label id="boxe"> How good was the Attention received?</label>
+    <label><input type="radio" value="Good" name="boxe" required>Good</label>
+    <label><input type="radio" value="Average" name="boxe">Average</label>
+    <label><input type="radio" value="Bad" name="boxe">Bad</label>
+    
+     <label id="check-box-descritpion"> What services do you have?</label>
+    <label><input type="checkbox" value="Internet" name="box">Internet</label>
+    <label><input type="checkbox" value="TV" name="box">TV</label>
+    <label><input type="checkbox" value="Phone" name="box">Phone</label>
+    
+    <label>Aditional Comments<label>
+      <textarea id="comments" name="comments" rows="4" cols="50">Write here something you want to tell us...</textarea>
+    <button type="submit" id="submit">Submit</button>
+</div>
+  </form>
+  
+</body>
+
+<footer></footer>
+  
+    </html>
