@@ -6,7 +6,6 @@ body{
     background-color: rgb(0, 255, 255), 50%;
     background-image:url(https://static.techspot.com/images2/news/bigimage/2019/04/2019-04-25-image-10-j.webp);
     background-size: 100% auto;
-    filter: bluescale(100%);
     
 }
 
@@ -70,3 +69,7 @@ div{
     align-items: center;
     flex-direction: column;
 }
+
+label{
+    font-weight: 900;
+  }
