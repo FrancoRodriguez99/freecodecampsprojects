@@ -1,0 +1,91 @@
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Smooch+Sans:wght@100&display=swap" rel="stylesheet">
+
+main{
+    margin-right: 300px;
+  }
+
+#navbar{
+
+    position: fixed;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: darkgrey;
+    border: 3px;
+    border-style: solid;
+    border-color: black;
+    width: 300px;
+    height: auto;
+    
+    
+
+
+}
+
+.nav-title{
+    
+    font-size: 18px;
+    color: white;
+}
+
+#navbar ul{
+    
+    padding-inline-start: 0px;
+}
+
+#navbar li{
+    list-style: none;
+}
+
+
+#navbar a{
+    text-decoration: none;
+    color: #4d4e53;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-top: solid 3px black;
+    
+}
+
+#main-doc header{
+
+    font-size: 20px;
+    padding-top: 20px;
+    font-family: 'Smooch Sans', sans-serif;
+}
+
+#main-doc p{
+
+    font-size: 15px;
+    padding-top: 20px;
+    font-family: 'Smooch Sans', sans-serif;
+}
+
+@media only screen and (min-width: 800px) {
+
+    main{
+        
+      }
+    
+
+    #navbar{
+
+        top: 0;
+        bottom: 0;
+        background-color: darkgrey;
+        border: 3px;
+        border-style: solid;
+        border-color: black;
+        width: 300px;
+        height: auto;
+        
+        
+    
+    
+    }
+
+}
